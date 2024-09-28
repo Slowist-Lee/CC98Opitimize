@@ -13,9 +13,9 @@ CC98内代码编辑器的优化工具，可以对代码进行高亮，并且添�
 ## 可以自定义的部分：
 ### 高亮风格选择
 可以通过修改`style.href = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/kimbie-light.min.css';`进行自定义。
-`highlight.js`给的官方的`demo`在: https://highlightjs.org/demo 在这里可以选择你想要的样式并且预览。找到你喜欢的样式，记住名字，然后在 https://cdnjs.com/libraries/highlight.js/11.7.0 内可以找到cdn服务器储存的css文件，这样调用速度比在github上看快很多。
+`highlight.js`给的官方的`demo`在: [https://highlightjs.org/demo](https://highlightjs.org/demo) 在这里可以选择你想要的样式并且预览。找到你喜欢的样式，记住名字，然后在 [https://cdnjs.com/libraries/highlight.js/11.7.0](https://cdnjs.com/libraries/highlight.js/11.7.0) 内可以找到cdn服务器储存的css文件，这样调用速度比在github上看快很多。
 我们以我这里用的`kimbie-light.min.css`为例：
-我们先在https://highlightjs.org/demo中预览，效果如图1  
+我们先在[https://highlightjs.org/demo](https://highlightjs.org/demo)中预览，效果如图1  
 之后我们进行搜索（如图2）  
 点击左侧的link图标，复制对应的url: `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/kimbie-light.min.css`，放入对应的引用的位置即可~  
 
@@ -39,7 +39,6 @@ copyButton.style.borderRadius = '3px';
 目前加载时还是有点卡顿，感觉是highlight.js的延时导致。本来想用动态DOM检测，但实际测试中发现highlight不知道为什么总是会卡顿……
 
 ---
-<br></br>
 第一次磕磕碰碰的写这种脚本，写的有点冗杂/乱七八糟，请见谅。  
 代码开源在github：https://github.com/Slowist-Lee/CC98Opitimize/tree/op1-highlight 一些心路历程乱七八糟的也记在Note里面。  
 欢迎PR！小白不胜感激 qwq
