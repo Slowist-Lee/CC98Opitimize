@@ -63,7 +63,7 @@
                     const clipboard = new ClipboardJS(copyButton);
 
                     clipboard.on('success', function(e) {
-                        copyButton.textContent = 'Copied';
+                        copyButton.textContent = 'Copied!';
                         e.clearSelection();
                         setTimeout(() => {
                             copyButton.textContent = 'Copy';
