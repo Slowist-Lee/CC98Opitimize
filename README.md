@@ -1,4 +1,4 @@
-设计思路：代码高亮$\rightarrow$找一个已经实现高亮的地方找一些思路$\rightarrow$打开VSCode的Markdown插件仓库，发现了`Highlight.js`$\rightarrow$决定调用他的`.js`和`.css`样式文件。
+设计思路：代码高亮→找一个已经实现高亮的地方找一些思路→打开VSCode的Markdown插件仓库，发现了`Highlight.js`→决定调用他的`.js`和`.css`样式文件。
 ## Step1: 调`.js`和`.css`文件：
 ```javascript
 function loadHighlightJs(callback) {
